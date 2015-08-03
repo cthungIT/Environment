@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840CBF6D1B2096E6001FEEB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840CBF6C1B2096E6001FEEB5 /* Foundation.framework */; };
+		840CBF6F1B2096E6001FEEB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840CBF6E1B2096E6001FEEB5 /* CoreGraphics.framework */; };
+		840CBF711B2096E6001FEEB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840CBF701B2096E6001FEEB5 /* UIKit.framework */; };
+		840CBF771B2096E7001FEEB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840CBF751B2096E7001FEEB5 /* InfoPlist.strings */; };
+		840CBF791B2096E7001FEEB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CBF781B2096E7001FEEB5 /* main.m */; };
+		840CBF7D1B2096E7001FEEB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CBF7C1B2096E7001FEEB5 /* AppDelegate.m */; };
+		840CBF7F1B2096E7001FEEB5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840CBF7E1B2096E7001FEEB5 /* Images.xcassets */; };
+		840CBF861B2096E7001FEEB5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840CBF851B2096E7001FEEB5 /* XCTest.framework */; };
+		840CBF871B2096E7001FEEB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840CBF6C1B2096E6001FEEB5 /* Foundation.framework */; };
+		840CBF881B2096E7001FEEB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840CBF701B2096E6001FEEB5 /* UIKit.framework */; };
+		840CBF901B2096E7001FEEB5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 840CBF8E1B2096E7001FEEB5 /* InfoPlist.strings */; };
+		840CBF921B2096E7001FEEB5 /* SlideImageTask1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CBF911B2096E7001FEEB5 /* SlideImageTask1Tests.m */; };
+		840CBF9F1B209708001FEEB5 /* SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CBF9E1B209708001FEEB5 /* SlideViewController.m */; };
+		840CBFA71B209753001FEEB5 /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CBFA61B209753001FEEB5 /* SliderView.m */; };
+		840CBFAA1B2098F8001FEEB5 /* EffectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840CBFA91B2098F8001FEEB5 /* EffectImageView.m */; };
+		840CBFB21B209C57001FEEB5 /* A.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840CBFAF1B209C57001FEEB5 /* A.jpg */; };
+		840CBFB31B209C57001FEEB5 /* B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 840CBFB01B209C57001FEEB5 /* B.jpg */; };
+		840CBFB41B209C57001FEEB5 /* slideBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 840CBFB11B209C57001FEEB5 /* slideBar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840CBF891B2096E7001FEEB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840CBF611B2096E6001FEEB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840CBF681B2096E6001FEEB5;
+			remoteInfo = SlideImageTask1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840CBF691B2096E6001FEEB5 /* SlideImageTask1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideImageTask1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840CBF6C1B2096E6001FEEB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		840CBF6E1B2096E6001FEEB5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		840CBF701B2096E6001FEEB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		840CBF741B2096E7001FEEB5 /* SlideImageTask1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideImageTask1-Info.plist"; sourceTree = "<group>"; };
+		840CBF761B2096E7001FEEB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		840CBF781B2096E7001FEEB5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840CBF7A1B2096E7001FEEB5 /* SlideImageTask1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideImageTask1-Prefix.pch"; sourceTree = "<group>"; };
+		840CBF7B1B2096E7001FEEB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840CBF7C1B2096E7001FEEB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840CBF7E1B2096E7001FEEB5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		840CBF841B2096E7001FEEB5 /* SlideImageTask1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideImageTask1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840CBF851B2096E7001FEEB5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		840CBF8D1B2096E7001FEEB5 /* SlideImageTask1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideImageTask1Tests-Info.plist"; sourceTree = "<group>"; };
+		840CBF8F1B2096E7001FEEB5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		840CBF911B2096E7001FEEB5 /* SlideImageTask1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideImageTask1Tests.m; sourceTree = "<group>"; };
+		840CBF9D1B209708001FEEB5 /* SlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideViewController.h; sourceTree = "<group>"; };
+		840CBF9E1B209708001FEEB5 /* SlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideViewController.m; sourceTree = "<group>"; };
+		840CBFA51B209753001FEEB5 /* SliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderView.h; sourceTree = "<group>"; };
+		840CBFA61B209753001FEEB5 /* SliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderView.m; sourceTree = "<group>"; };
+		840CBFA81B2098F8001FEEB5 /* EffectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectImageView.h; sourceTree = "<group>"; };
+		840CBFA91B2098F8001FEEB5 /* EffectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectImageView.m; sourceTree = "<group>"; };
+		840CBFAC1B2099AC001FEEB5 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		840CBFAF1B209C57001FEEB5 /* A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = A.jpg; sourceTree = "<group>"; };
+		840CBFB01B209C57001FEEB5 /* B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = B.jpg; sourceTree = "<group>"; };
+		840CBFB11B209C57001FEEB5 /* slideBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slideBar.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840CBF661B2096E6001FEEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840CBF6F1B2096E6001FEEB5 /* CoreGraphics.framework in Frameworks */,
+				840CBF711B2096E6001FEEB5 /* UIKit.framework in Frameworks */,
+				840CBF6D1B2096E6001FEEB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840CBF811B2096E7001FEEB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840CBF861B2096E7001FEEB5 /* XCTest.framework in Frameworks */,
+				840CBF881B2096E7001FEEB5 /* UIKit.framework in Frameworks */,
+				840CBF871B2096E7001FEEB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840CBF601B2096E6001FEEB5 = {
+			isa = PBXGroup;
+			children = (
+				840CBF721B2096E7001FEEB5 /* SlideImageTask1 */,
+				840CBF8B1B2096E7001FEEB5 /* SlideImageTask1Tests */,
+				840CBF6B1B2096E6001FEEB5 /* Frameworks */,
+				840CBF6A1B2096E6001FEEB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840CBF6A1B2096E6001FEEB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840CBF691B2096E6001FEEB5 /* SlideImageTask1.app */,
+				840CBF841B2096E7001FEEB5 /* SlideImageTask1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840CBF6B1B2096E6001FEEB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				840CBF6C1B2096E6001FEEB5 /* Foundation.framework */,
+				840CBF6E1B2096E6001FEEB5 /* CoreGraphics.framework */,
+				840CBF701B2096E6001FEEB5 /* UIKit.framework */,
+				840CBF851B2096E7001FEEB5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840CBF721B2096E7001FEEB5 /* SlideImageTask1 */ = {
+			isa = PBXGroup;
+			children = (
+				840CBFA01B209710001FEEB5 /* Utils */,
+				840CBF9C1B2096F3001FEEB5 /* Delegate */,
+				840CBF9B1B2096EC001FEEB5 /* ViewController */,
+				840CBF7E1B2096E7001FEEB5 /* Images.xcassets */,
+				840CBF731B2096E7001FEEB5 /* Supporting Files */,
+			);
+			path = SlideImageTask1;
+			sourceTree = "<group>";
+		};
+		840CBF731B2096E7001FEEB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840CBF741B2096E7001FEEB5 /* SlideImageTask1-Info.plist */,
+				840CBF751B2096E7001FEEB5 /* InfoPlist.strings */,
+				840CBF781B2096E7001FEEB5 /* main.m */,
+				840CBF7A1B2096E7001FEEB5 /* SlideImageTask1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840CBF8B1B2096E7001FEEB5 /* SlideImageTask1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				840CBF911B2096E7001FEEB5 /* SlideImageTask1Tests.m */,
+				840CBF8C1B2096E7001FEEB5 /* Supporting Files */,
+			);
+			path = SlideImageTask1Tests;
+			sourceTree = "<group>";
+		};
+		840CBF8C1B2096E7001FEEB5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840CBF8D1B2096E7001FEEB5 /* SlideImageTask1Tests-Info.plist */,
+				840CBF8E1B2096E7001FEEB5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840CBF9B1B2096EC001FEEB5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				840CBF9D1B209708001FEEB5 /* SlideViewController.h */,
+				840CBF9E1B209708001FEEB5 /* SlideViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		840CBF9C1B2096F3001FEEB5 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				840CBF7B1B2096E7001FEEB5 /* AppDelegate.h */,
+				840CBF7C1B2096E7001FEEB5 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		840CBFA01B209710001FEEB5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				840CBFAB1B209997001FEEB5 /* Constants */,
+				840CBFA41B209728001FEEB5 /* Controllers */,
+				840CBFA31B209723001FEEB5 /* Views */,
+				840CBFA21B20971C001FEEB5 /* Models */,
+				840CBFA11B209714001FEEB5 /* Resources */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		840CBFA11B209714001FEEB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				840CBFAF1B209C57001FEEB5 /* A.jpg */,
+				840CBFB01B209C57001FEEB5 /* B.jpg */,
+				840CBFB11B209C57001FEEB5 /* slideBar.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		840CBFA21B20971C001FEEB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		840CBFA31B209723001FEEB5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				840CBFA51B209753001FEEB5 /* SliderView.h */,
+				840CBFA61B209753001FEEB5 /* SliderView.m */,
+				840CBFA81B2098F8001FEEB5 /* EffectImageView.h */,
+				840CBFA91B2098F8001FEEB5 /* EffectImageView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		840CBFA41B209728001FEEB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		840CBFAB1B209997001FEEB5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				840CBFAC1B2099AC001FEEB5 /* Constants.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840CBF681B2096E6001FEEB5 /* SlideImageTask1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840CBF951B2096E7001FEEB5 /* Build configuration list for PBXNativeTarget "SlideImageTask1" */;
+			buildPhases = (
+				840CBF651B2096E6001FEEB5 /* Sources */,
+				840CBF661B2096E6001FEEB5 /* Frameworks */,
+				840CBF671B2096E6001FEEB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideImageTask1;
+			productName = SlideImageTask1;
+			productReference = 840CBF691B2096E6001FEEB5 /* SlideImageTask1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840CBF831B2096E7001FEEB5 /* SlideImageTask1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840CBF981B2096E7001FEEB5 /* Build configuration list for PBXNativeTarget "SlideImageTask1Tests" */;
+			buildPhases = (
+				840CBF801B2096E7001FEEB5 /* Sources */,
+				840CBF811B2096E7001FEEB5 /* Frameworks */,
+				840CBF821B2096E7001FEEB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840CBF8A1B2096E7001FEEB5 /* PBXTargetDependency */,
+			);
+			name = SlideImageTask1Tests;
+			productName = SlideImageTask1Tests;
+			productReference = 840CBF841B2096E7001FEEB5 /* SlideImageTask1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840CBF611B2096E6001FEEB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = HUNGCAO;
+				TargetAttributes = {
+					840CBF831B2096E7001FEEB5 = {
+						TestTargetID = 840CBF681B2096E6001FEEB5;
+					};
+				};
+			};
+			buildConfigurationList = 840CBF641B2096E6001FEEB5 /* Build configuration list for PBXProject "SlideImageTask1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 840CBF601B2096E6001FEEB5;
+			productRefGroup = 840CBF6A1B2096E6001FEEB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840CBF681B2096E6001FEEB5 /* SlideImageTask1 */,
+				840CBF831B2096E7001FEEB5 /* SlideImageTask1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840CBF671B2096E6001FEEB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840CBFB21B209C57001FEEB5 /* A.jpg in Resources */,
+				840CBF771B2096E7001FEEB5 /* InfoPlist.strings in Resources */,
+				840CBFB31B209C57001FEEB5 /* B.jpg in Resources */,
+				840CBF7F1B2096E7001FEEB5 /* Images.xcassets in Resources */,
+				840CBFB41B209C57001FEEB5 /* slideBar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840CBF821B2096E7001FEEB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840CBF901B2096E7001FEEB5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840CBF651B2096E6001FEEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840CBFAA1B2098F8001FEEB5 /* EffectImageView.m in Sources */,
+				840CBF7D1B2096E7001FEEB5 /* AppDelegate.m in Sources */,
+				840CBFA71B209753001FEEB5 /* SliderView.m in Sources */,
+				840CBF791B2096E7001FEEB5 /* main.m in Sources */,
+				840CBF9F1B209708001FEEB5 /* SlideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840CBF801B2096E7001FEEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840CBF921B2096E7001FEEB5 /* SlideImageTask1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840CBF8A1B2096E7001FEEB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840CBF681B2096E6001FEEB5 /* SlideImageTask1 */;
+			targetProxy = 840CBF891B2096E7001FEEB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840CBF751B2096E7001FEEB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840CBF761B2096E7001FEEB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		840CBF8E1B2096E7001FEEB5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840CBF8F1B2096E7001FEEB5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840CBF931B2096E7001FEEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840CBF941B2096E7001FEEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840CBF961B2096E7001FEEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlideImageTask1/SlideImageTask1-Prefix.pch";
+				INFOPLIST_FILE = "SlideImageTask1/SlideImageTask1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		840CBF971B2096E7001FEEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlideImageTask1/SlideImageTask1-Prefix.pch";
+				INFOPLIST_FILE = "SlideImageTask1/SlideImageTask1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		840CBF991B2096E7001FEEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlideImageTask1.app/SlideImageTask1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlideImageTask1/SlideImageTask1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SlideImageTask1Tests/SlideImageTask1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		840CBF9A1B2096E7001FEEB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SlideImageTask1.app/SlideImageTask1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlideImageTask1/SlideImageTask1-Prefix.pch";
+				INFOPLIST_FILE = "SlideImageTask1Tests/SlideImageTask1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840CBF641B2096E6001FEEB5 /* Build configuration list for PBXProject "SlideImageTask1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840CBF931B2096E7001FEEB5 /* Debug */,
+				840CBF941B2096E7001FEEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840CBF951B2096E7001FEEB5 /* Build configuration list for PBXNativeTarget "SlideImageTask1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840CBF961B2096E7001FEEB5 /* Debug */,
+				840CBF971B2096E7001FEEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840CBF981B2096E7001FEEB5 /* Build configuration list for PBXNativeTarget "SlideImageTask1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840CBF991B2096E7001FEEB5 /* Debug */,
+				840CBF9A1B2096E7001FEEB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840CBF611B2096E6001FEEB5 /* Project object */;
+}
